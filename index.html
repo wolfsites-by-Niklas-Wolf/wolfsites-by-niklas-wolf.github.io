@@ -78,6 +78,7 @@
       letter-spacing: 0.08em;
       color: var(--text);
       margin-bottom: 1rem;
+      white-space: nowrap;
     }
 
     .app-desc {
@@ -85,8 +86,9 @@
       line-height: 1.7;
       color: var(--muted);
       font-weight: 300;
-      max-width: 480px;
+      max-width: 380px;
       margin: 0 auto 2.5rem;
+      word-break: keep-all;
     }
 
     .badge {
@@ -126,11 +128,11 @@
 
     .btn-ghost {
       background: transparent;
-      color: var(--muted);
-      border: 1px solid #2a2a2a;
+      color: var(--text);
+      border: 1px solid #555;
     }
     .btn-ghost:hover {
-      border-color: #444;
+      border-color: #fff;
       color: var(--text);
       transform: translateY(-2px);
     }
@@ -138,7 +140,7 @@
     footer {
       margin-top: 4rem;
       font-size: 0.75rem;
-      color: #333;
+      color: #888;
       letter-spacing: 0.1em;
     }
   </style>
@@ -159,7 +161,7 @@
       <a href="https://sites.google.com/wolfsites.de/fastest-finger/datenschutzerkl%C3%A4rung" target="_blank" class="btn btn-primary">
         Datenschutzerklärung
       </a>
-      <a href="www.wolfsites.de/play" target="_blank" class="btn btn-ghost">
+      <a href="https://wolfsites.de/play" target="_blank" class="btn btn-ghost">
         Jetzt spielen
       </a>
     </div>
